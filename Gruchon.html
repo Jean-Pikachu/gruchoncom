@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Select the css file -->
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- Font selector from google, declare the font selection in css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+    <title>Marc Gruchon le Yab officiel</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <img class="logo" alt="Gruchon logo" src="Images/Cruchon.png" />
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">Decouvrez +</a></li>
+          <li><a class="main-nav-link" href="#">Contact</a></li>
+          <li><a class="main-nav-link nav-cta" href="#">Bez un dallonaz</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-heroslide">
+        <div class="heroslide">
+          <div class="caroussel-container">
+            <div class="caroussel">
+              <div class="slide slide--1">
+                <img alt="Un marc musculeux" src="images/bg.png" />
+              </div>
+              <div class="slide slide--2">
+                <img class="img" alt="Un marc cocotier" src="images/yoyo.png" />
+              </div>
+
+              <div class="slide slide--3">
+                <img
+                  class="img"
+                  alt="Un issou s'épongeant"
+                  src="images/issou.png"
+                />
+              </div>
+
+              <!-- Boutons slider et 3 dots -->
+              <!-- <button class="slider__btn slider__btn--left">&larr;</button> -->
+              <ion-icon
+                name="arrow-forward"
+                class="slider__btn slider__btn--right"
+              ></ion-icon>
+              <!-- <button class="slider__btn slider__btn--left">&rarr;</button> -->
+              <ion-icon
+                name="arrow-back"
+                class="slider__btn slider__btn--left"
+              ></ion-icon>
+              <div class="dots"></div>
+            </div>
+            <p class="temoignage">
+              <span>+ de 23 années </span> d'expérience de Yabisme
+            </p>
+          </div>
+          <div class="heroslide-text-box">
+            <h1 class="headline-primary">
+              No mais regardez moi ce beau gosse sérieux
+            </h1>
+            <p class="heroslide-description">
+              Ca c'est un marmaile i rode batay da cour, oté mounoir si ou war
+              li cour direct pasque quand li approche na pu soleil tellement lu
+              lé big
+            </p>
+            <button class="btn-dallonaz">Essaye a lu</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-features">
+        <!-- /*---Headline--*/ -->
+        <div class="container-headline">
+          <h1 class="headline-primary">De quoi est capable ce Yab ?</h1>
+        </div>
+
+        <!-- /*---------Grid start--------*/ -->
+        <div class="features-grid">
+          <div class="features-text">
+            <h2 class="heading-secondary">Regardez ce crazeur</h2>
+            <p class="temoignage">
+              Aprés avoir poussé a la salle pendant plus de 3h des développés
+              couchés a 140kg, ce marmaille a besoin de se reposer.
+            </p>
+          </div>
+          <div class="img-box">
+            <img class="img-features" alt="Gros dodo" src="images/doudou.jpg" />
+          </div>
+
+          <div class="img-box">
+            <img
+              class="boloboucan"
+              alt="Une bolo et boucan canot"
+              src="images/boloboucan.png"
+            />
+          </div>
+          <div class="features-text">
+            <h2 class="heading-secondary">Un combo imbattable</h2>
+            <p class="temoignage">
+              Vous ne voyez pas le lien entre ces deux images ? Détrompez vous
+              car le Marcus Gruchetus peut faire une bolo maison puis vous raler
+              a boucan en moins de temps qu'il n'en faut pour dire "KEKW ??!"
+            </p>
+          </div>
+
+          <div class="features-text">
+            <h2 class="heading-secondary">Une balade en forêt</h2>
+            <p class="temoignage">
+              Il posséde une aptitude sans égal de la randonnée, de plus il
+              n'hésitera pas a tire t-shirt a cause de la moiteur de la forêt
+              tropicale.
+            </p>
+          </div>
+          <div class="img-box">
+            <img class="img-features" alt="Randonnée" src="images/forêt.jpg" />
+          </div>
+
+          <div class="img-box">
+            <img class="img-features" alt="Randonnée" src="images/zamal.png" />
+          </div>
+          <div class="features-text">
+            <h2 class="heading-secondary">Le zamal</h2>
+            <p class="temoignage">
+              De temps a autre, vous le surprendrez a fouiller votre cendrier en
+              quête d'un zamal magique. Cela lui permettra de décompresser afin
+              de vous troll au moment ou vous vous y attendez le moins.
+            </p>
+          </div>
+        </div>
+        <!-- /*------------End Grid-------------*/ -->
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>
